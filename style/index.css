@@ -156,6 +156,7 @@ button{
     justify-content:space-between;
     margin-top:6%;
     flex-wrap: wrap;
+    margin-bottom:6%
     
 }
 .project1, .project2, .project3 {
@@ -265,6 +266,20 @@ p{
     
 }
 
+
+@media (max-width:500px){
+    .name{
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
+    a>p{
+        font-size: 1.8rem;
+    }
+    
+    
+}
 
 
     
